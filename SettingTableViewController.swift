@@ -16,6 +16,7 @@ class SettingTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.backgroundColor = .black
+        tableView.separatorColor = .darkGray
 
     }
     // 섹션 개수
@@ -55,6 +56,9 @@ class SettingTableViewController: UITableViewController {
     // 2. 셀 디자인 및 데이터 처리
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "settingCell")!
+        
+        cell.backgroundColor = .black
+        cell.textLabel?.textColor = .white
         
         if indexPath.section == 0 {
             cell.textLabel?.text = basicSetting[indexPath.row]

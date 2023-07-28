@@ -25,8 +25,22 @@ class StudyTableViewController: UITableViewController {
         return 2
     }
     
+    // 100% 모든 경우의 수를 return 해주어야 함
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return section == 0 ? "첫번째 섹션" : "두번째 섹션"
+        // return section == 0 ? "첫번째 섹션" : "두번째 섹션"
+        
+        if section == 0 {
+            return "첫번째 섹션"
+        } else if section == 1{
+            return "두번째 섹션"
+        } else if section == 2{
+            return "세번째 섹션"
+        } else {
+            return nil // 반환값이 옵셔널이기 때문.
+        }
+        
+        // return ""
+        
     }
     
     // 필수 메소드 1. 섹션 내 셀의 개수

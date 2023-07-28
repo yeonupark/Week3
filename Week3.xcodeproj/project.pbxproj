@@ -14,11 +14,15 @@
 		48100C712A71FFEF00DB8CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48100C702A71FFEF00DB8CE7 /* Assets.xcassets */; };
 		48100C742A71FFEF00DB8CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48100C722A71FFEF00DB8CE7 /* LaunchScreen.storyboard */; };
 		48100C7C2A720FEF00DB8CE7 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48100C7B2A720FEF00DB8CE7 /* TodoTableViewController.swift */; };
+		48BF6E062A7389C80052DF96 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF6E052A7389C80052DF96 /* ToDo.swift */; };
+		48BF6E082A738A0A0052DF96 /* ToDoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF6E072A738A0A0052DF96 /* ToDoInformation.swift */; };
 		48F8A9E12A7232D500F816BC /* StudyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9E02A7232D500F816BC /* StudyTableViewController.swift */; };
 		48F8A9E32A72497100F816BC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9E22A72497100F816BC /* Extension.swift */; };
 		48F8A9E52A7252A400F816BC /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F8A9E42A7252A400F816BC /* Setting.storyboard */; };
 		48F8A9E72A725A5E00F816BC /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9E62A725A5E00F816BC /* SettingTableViewController.swift */; };
 		48F8A9E92A726FB700F816BC /* wishListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9E82A726FB700F816BC /* wishListTableViewController.swift */; };
+		48F8A9EB2A73504600F816BC /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9EA2A73504600F816BC /* CustomTableViewController.swift */; };
+		48F8A9ED2A73527300F816BC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8A9EC2A73527300F816BC /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +35,15 @@
 		48100C732A71FFEF00DB8CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48100C752A71FFEF00DB8CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48100C7B2A720FEF00DB8CE7 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		48BF6E052A7389C80052DF96 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		48BF6E072A738A0A0052DF96 /* ToDoInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInformation.swift; sourceTree = "<group>"; };
 		48F8A9E02A7232D500F816BC /* StudyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		48F8A9E22A72497100F816BC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = SOURCE_ROOT; };
 		48F8A9E42A7252A400F816BC /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = SOURCE_ROOT; };
 		48F8A9E62A725A5E00F816BC /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		48F8A9E82A726FB700F816BC /* wishListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishListTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		48F8A9EA2A73504600F816BC /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		48F8A9EC2A73527300F816BC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 		48100C662A71FFEC00DB8CE7 /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				48F8A9EA2A73504600F816BC /* CustomTableViewController.swift */,
+				48BF6E072A738A0A0052DF96 /* ToDoInformation.swift */,
+				48BF6E052A7389C80052DF96 /* ToDo.swift */,
+				48F8A9EC2A73527300F816BC /* CustomTableViewCell.swift */,
 				48F8A9E82A726FB700F816BC /* wishListTableViewController.swift */,
 				48F8A9E62A725A5E00F816BC /* SettingTableViewController.swift */,
 				48F8A9E42A7252A400F816BC /* Setting.storyboard */,
@@ -160,10 +172,14 @@
 				48F8A9E72A725A5E00F816BC /* SettingTableViewController.swift in Sources */,
 				48100C6C2A71FFEC00DB8CE7 /* ViewController.swift in Sources */,
 				48100C7C2A720FEF00DB8CE7 /* TodoTableViewController.swift in Sources */,
+				48BF6E062A7389C80052DF96 /* ToDo.swift in Sources */,
+				48BF6E082A738A0A0052DF96 /* ToDoInformation.swift in Sources */,
 				48F8A9E12A7232D500F816BC /* StudyTableViewController.swift in Sources */,
 				48F8A9E32A72497100F816BC /* Extension.swift in Sources */,
 				48100C682A71FFEC00DB8CE7 /* AppDelegate.swift in Sources */,
+				48F8A9ED2A73527300F816BC /* CustomTableViewCell.swift in Sources */,
 				48F8A9E92A726FB700F816BC /* wishListTableViewController.swift in Sources */,
+				48F8A9EB2A73504600F816BC /* CustomTableViewController.swift in Sources */,
 				48100C6A2A71FFEC00DB8CE7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
